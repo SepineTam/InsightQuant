@@ -1,6 +1,6 @@
 # InsightQuant
 一个基于深度学习的量化投资策略<br>
-A quantitative investment strategy based on deep learning
+A quantitative investment strategy based on DL(deep learning)
 
 # How to use
 Firstly, if you have not downloaded the project, please run it first

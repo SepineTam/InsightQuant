@@ -1,4 +1,4 @@
-from strategy import Strategy
+from DL import network
 
 
 def main():
