@@ -5,5 +5,10 @@
 #
 # @Author  : Sepine Tam
 # @File    : csv2sqlite.py
+import csv
 
-def csv2sqlite(csv_file, sqlite_file): pass
+
+def csv2sqlite(csv_file_path, sqlite_file_path):
+    with open(csv_file_path) as csv_file:
+        csv_reader = csv.reader()
+        pass

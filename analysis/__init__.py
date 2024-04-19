@@ -6,12 +6,12 @@
 # @Author  : Sepine Tam
 # @File    : __init__.py.py
 
-import torch
-from torch import nn
-import torch.nn.functional as F
+from matplotlib import pyplot as plt
 
 
-class DL(nn.Module):
+class Draw:
     def __init__(self):
-        super(DL, self).__init__()
-        pass
+        self.fig = plt.figure()
+
+    def show(self):
+        self.fig.show()

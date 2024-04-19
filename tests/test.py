@@ -4,18 +4,7 @@
 # Copyright (C) 2024 - 2024 SepineTam, Inc. All Rights Reserved 
 #
 # @Author  : Sepine Tam
-# @File    : Process.py
+# @File    : test.py
 
-from . import *
-
-
-def get_table(): pass
-
-
-def get_column(): pass
-
-
-def get_row(): pass
-
-
-def get_data(): pass
+import process.SQLFrame as frame
+from process import *
