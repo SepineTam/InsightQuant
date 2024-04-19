@@ -5,3 +5,9 @@
 #
 # @Author  : Sepine Tam & BraveQ
 # @File    : __init__.py.py
+
+from DL import *
+
+
+class Strategy:
+    pass

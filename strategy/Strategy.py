@@ -5,12 +5,10 @@
 #
 # @Author  : Sepine Tam
 # @File    : Strategy.py
-def test_import():
-    print("Importing Strategy successfully")
+
+from . import *
 
 
-class Strategy:
-    def __init__(self):
-        pass
-
+class Strategy(Strategy):
+    pass
 

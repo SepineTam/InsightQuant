@@ -5,15 +5,17 @@
 #
 # @Author  : Sepine Tam
 # @File    : Process.py
-def delete():
-    pass
+
+from SQLFrame import *
 
 
-def add():
-    pass
+class Process(SQLFrame):
+    def delete(self): pass
 
+    def add(self): pass
 
-def change():
-    pass
+    def update(self): pass
 
+    def select(self): pass
 
+    def insert(self): pass
