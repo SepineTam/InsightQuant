@@ -1,8 +1,10 @@
 numpy
 pandas
-torch
 matplotlib
-scikit-learn
-pytest
 sqlalchemy
+
+pytest
+
+torch
+scikit-learn
 tensorflow
