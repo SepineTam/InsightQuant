@@ -1,5 +1,11 @@
 # 忽略git .venv
 .venv
 
+# 忽略git .DS_Store
+.DS_Store
+
 # 忽略git tests/data
 tests/data
+
+#
+
