@@ -6,4 +6,8 @@
 # @Author  : Sepine Tam
 # @File    : __init__.py.py
 
+# 模拟交易的包
 from simulink import *
+
+
+# import other
