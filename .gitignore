@@ -9,3 +9,5 @@ tests/data
 
 # 忽略git data
 data
+
+simulate_RUN.py

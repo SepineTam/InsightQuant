@@ -7,38 +7,30 @@
 # @File    : simulink.py.py
 
 import numpy as np
+from strategy import Strategy
 
 
-def default(self, time, code): pass
+class Simulink:
+    def __init__(self):
+        self._init_money = 10000000  # 初始金额默认为100万
+        self.strategy = "default"
 
-
-class Simulink():
-    def __init__(self, init_fund):
-        self.fund = init_fund
-        self.exchange = np.array([])
-
-    def _get_price(self, time, code, rule=default):
+    def mk_strategy(self):
         """
-        获取{code}股票在{time}时候的报价，可以选择rule(获取规则)
-        :param time: 交易时刻
-        :param code: 股票代码
-        :param rule: 规则
-        :return: 股票报价
+        从策略列表中提取策略进行操作
+        :return:
         """
-        return rule(time, code)
 
-    def process(self, time, quantity, code):
-        """
-        记录{code}股票在{time}时刻交易{quantity}的行为action
-        :param time: 交易时刻
-        :param quantity: 交易数量
-        :param code: 股票代码
-        :return: None
-        """
-        price = self._get_price(time, code)
-        _exchange = {
-            'price': price,
-            'quantity': quantity,
-            'code': code
-        }
-        self.exchange = np.append(_exchange)
+        return None
+
+    def get_money(self):
+        return self._init_money
+
+    def change_money(self, money):
+        self._init_money = money
+
+    def get_strategy(self):
+        return self.strategy
+
+    def set_strategy(self, strategy):
+        self.strategy = strategy

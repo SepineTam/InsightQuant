@@ -1,0 +1,3 @@
+if, action, function
+price>=10,buy,"buy(600009, 20, 3)"
+price==20,buy,"buy(600009, 66, 3)"
